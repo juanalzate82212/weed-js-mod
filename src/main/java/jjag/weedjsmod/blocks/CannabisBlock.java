@@ -18,14 +18,14 @@ public class CannabisBlock  extends CropBlock {
     //public static final IntProperty AGE;
 
     private static final VoxelShape[] AGE_TO_SHAPE = new VoxelShape[]{
-            Block.createCuboidShape(0, 0, 0, 16, 2, 16),
-            Block.createCuboidShape(0, 0, 0, 16, 3, 16),
-            Block.createCuboidShape(0, 0, 0, 16, 5, 16),
-            Block.createCuboidShape(0, 0, 0, 16, 7, 16),
-            Block.createCuboidShape(0, 0, 0, 16, 8, 16),
+            Block.createCuboidShape(0, 0, 0, 16, 6, 16),
             Block.createCuboidShape(0, 0, 0, 16, 9, 16),
-            Block.createCuboidShape(0, 0, 0, 16, 9, 16),
-            Block.createCuboidShape(0, 0, 0, 16, 10, 16),
+            Block.createCuboidShape(0, 0, 0, 16, 11, 16),
+            Block.createCuboidShape(0, 0, 0, 16, 15, 16),
+            Block.createCuboidShape(0, 0, 0, 16, 15, 16),
+            Block.createCuboidShape(0, 0, 0, 16, 16, 16),
+            Block.createCuboidShape(0, 0, 0, 16, 16, 16),
+            Block.createCuboidShape(0, 0, 0, 16, 16, 16),
     };
 
     public CannabisBlock(Settings settings) {
