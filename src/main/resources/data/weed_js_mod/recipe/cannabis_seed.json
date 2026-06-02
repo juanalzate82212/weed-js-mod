@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RGR",
+    "GWG",
+    "BAB"
+  ],
+  "key": {
+    "R": "minecraft:red_mushroom",
+    "G": "minecraft:green_dye",
+    "W": "minecraft:wheat_seeds",
+    "B": "minecraft:brown_mushroom",
+    "A": "minecraft:glass_bottle"
+  },
+  "result": {
+    "id": "weed_js_mod:cannabis_seed",
+    "count": 1
+  }
+}

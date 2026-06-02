@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "weed_js_mod:cannabis_nugget",
+    "weed_js_mod:blunt_wrap"
+  ],
+  "result": {
+    "id": "weed_js_mod:blunt",
+    "count": 1
+  }
+}

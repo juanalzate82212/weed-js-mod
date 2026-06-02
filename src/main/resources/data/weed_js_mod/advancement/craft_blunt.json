@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "weed_js_mod:blunt"
+    },
+    "title": {
+      "translate": "advancement.weed_js_mod.craft_blunt.title"
+    },
+    "description": {
+      "translate": "advancement.weed_js_mod.craft_blunt.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "weed_js_mod:craft_blunt_wrap",
+  "criteria": {
+    "craft_blunt": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "weed_js_mod:blunt"
+      }
+    }
+  }
+}

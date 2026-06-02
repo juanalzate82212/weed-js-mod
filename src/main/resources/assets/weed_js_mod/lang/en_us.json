@@ -1,0 +1,18 @@
+{
+  "item.weed_js_mod.cannabis_seed": "Cannabis Seed",
+  "item.weed_js_mod.cannabis_nugget": "Cannabis Nugget",
+  "item.weed_js_mod.blunt_wrap": "Blunt Wrap",
+  "item.weed_js_mod.blunt": "Blunt",
+  "itemGroup.weed_js_mod.weed_js_mod_group": "Weed JS Mod",
+
+  "advancement.weed_js_mod.craft_cannabis_seed.title": "What is this?",
+  "advancement.weed_js_mod.craft_cannabis_seed.description": "Craft your first cannabis seed",
+  "advancement.weed_js_mod.harvest_cannabis.title": "Harvest Season",
+  "advancement.weed_js_mod.harvest_cannabis.description": "Harvest your first cannabis nugget",
+  "advancement.weed_js_mod.craft_blunt_wrap.title": "So Tasty",
+  "advancement.weed_js_mod.craft_blunt_wrap.description": "Craft your first blunt wrap",
+  "advancement.weed_js_mod.craft_blunt.title": "I Gotta Hide This",
+  "advancement.weed_js_mod.craft_blunt.description": "Craft your first blunt",
+  "advancement.weed_js_mod.smoke_blunt.title": "Snoop Would Be Proud",
+  "advancement.weed_js_mod.smoke_blunt.description": "Smoke your first blunt"
+}

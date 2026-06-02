@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "weed_js_mod",
+	"version": "${version}",
+	"name": "Weed JS Mod",
+	"description": "Adds cannabis cultivation, crafting and consumables to your world. Grow, harvest and smoke with friends!",
+	"authors": [
+		"Juan Alzate"
+	],
+	"contact": {
+		"sources": "https://github.com/juanalzate82212/weed-js-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/weed_js_mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"jjag.weedjsmod.WeedJSMod"
+		],
+		"client": [
+			"jjag.weedjsmod.client.WeedJSModClient"
+		],
+		"fabric-datagen": [
+			"jjag.weedjsmod.client.WeedJSModDataGenerator"
+		]
+	},
+	"mixins": [
+		"weed_js_mod.mixins.json",
+		{
+			"config": "weed_js_mod.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

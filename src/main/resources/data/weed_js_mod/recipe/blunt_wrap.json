@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MHC",
+    "PPP"
+  ],
+  "key": {
+    "P": "minecraft:paper",
+    "M": "minecraft:melon_slice",
+    "H": "minecraft:honeycomb",
+    "C": "minecraft:cocoa_beans"
+  },
+  "result": {
+    "id": "weed_js_mod:blunt_wrap",
+    "count": 2
+  }
+}

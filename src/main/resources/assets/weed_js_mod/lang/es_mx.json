@@ -1,0 +1,18 @@
+{
+  "item.weed_js_mod.cannabis_seed": "Semilla de cannabis",
+  "item.weed_js_mod.cannabis_nugget": "Cogollo de cannabis",
+  "item.weed_js_mod.blunt_wrap": "Cañamo para enrollar",
+  "item.weed_js_mod.blunt": "Porro",
+  "itemGroup.weed_js_mod.weed_js_mod_group": "Weed JS Mod",
+
+  "advancement.weed_js_mod.craft_cannabis_seed.title": "¿Qué es esto?",
+  "advancement.weed_js_mod.craft_cannabis_seed.description": "Crea tu primera semilla de cannabis",
+  "advancement.weed_js_mod.harvest_cannabis.title": "Temporada de Cosecha",
+  "advancement.weed_js_mod.harvest_cannabis.description": "Cosecha tu primer cogollo de cannabis",
+  "advancement.weed_js_mod.craft_blunt_wrap.title": "Muy Sabroso",
+  "advancement.weed_js_mod.craft_blunt_wrap.description": "Crea tu primer cañamo para enrollar",
+  "advancement.weed_js_mod.craft_blunt.title": "Debo Esconder Esto",
+  "advancement.weed_js_mod.craft_blunt.description": "Crea tu primer porro",
+  "advancement.weed_js_mod.smoke_blunt.title": "Snoop estaría Orgulloso",
+  "advancement.weed_js_mod.smoke_blunt.description": "Fúmate tu primer porro"
+}

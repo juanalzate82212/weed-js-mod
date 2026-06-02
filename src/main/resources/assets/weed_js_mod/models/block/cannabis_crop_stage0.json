@@ -1,0 +1,6 @@
+{
+  "parent": "weed_js_mod:block/template_crop_cross",
+  "textures": {
+    "cross": "weed_js_mod:block/cannabis_crop_stage0"
+  }
+}
