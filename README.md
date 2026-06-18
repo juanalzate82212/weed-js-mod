@@ -63,7 +63,7 @@ Crafted in a shapeless pattern:
 | Requirement | Version |
 |-------------|---------|
 | Minecraft | 1.21.11 |
-| Fabric Loader | ≥ 0.19.2 |
+| Fabric Loader | ≥ 0.18.5 |
 | Fabric API | 0.141.4+1.21.11 |
 | Java | ≥ 21 |
 
