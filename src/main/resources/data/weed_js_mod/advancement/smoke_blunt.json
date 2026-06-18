@@ -1,4 +1,5 @@
 {
+  "parent": "weed_js_mod:craft_blunt",
   "display": {
     "icon": {
       "id": "weed_js_mod:blunt"
@@ -12,17 +13,21 @@
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": true
+    "hidden": false
   },
-  "parent": "weed_js_mod:craft_blunt",
   "criteria": {
-    "smoke_blunt": {
+    "smoke": {
       "trigger": "minecraft:consume_item",
       "conditions": {
-        "item": {
-          "items": "weed_js_mod:blunt"
-        }
+        "items": [
+          {
+            "items": [
+              "weed_js_mod:blunt"
+            ]
+          }
+        ]
       }
     }
-  }
+  },
+  "requirements": [["smoke"]]
 }

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OIO",
+    "OGO",
+    "OOO"
+  ],
+  "key": {
+    "O": "minecraft:oak_planks",
+    "G": "minecraft:green_dye",
+    "I": "minecraft:iron_ingot"
+  },
+  "result": {
+    "id": "weed_js_mod:cannabis_crafting_table",
+    "count": 1
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "weed_js_mod:plant_cannabis_seed",
+  "display": {
+    "icon": {
+      "id": "weed_js_mod:cannabis_nugget_common"
+    },
+    "title": {
+      "translate": "advancement.weed_js_mod.harvest_cannabis_nugget.title"
+    },
+    "description": {
+      "translate": "advancement.weed_js_mod.harvest_cannabis_nugget.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_nugget": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "weed_js_mod:cannabis_nugget_common",
+              "weed_js_mod:cannabis_nugget_rare",
+              "weed_js_mod:cannabis_nugget_special",
+              "weed_js_mod:cannabis_nugget_legendary"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [["has_nugget"]]
+}

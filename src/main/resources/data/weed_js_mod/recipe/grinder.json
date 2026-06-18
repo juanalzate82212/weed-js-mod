@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "III"
+  ],
+  "key": {
+    "P": "minecraft:iron_nugget",
+    "I": "minecraft:iron_ingot"
+  },
+  "result": {
+    "id": "weed_js_mod:grinder",
+    "count": 1
+  }
+}

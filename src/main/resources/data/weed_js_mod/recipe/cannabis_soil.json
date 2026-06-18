@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:dirt",
+    "minecraft:moss_block",
+    "minecraft:bone_meal",
+    "minecraft:brown_mushroom"
+  ],
+  "result": {
+    "id": "weed_js_mod:cannabis_soil",
+    "count": 1
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "blunt_use": {
+    "sounds": ["weed_js_mod:blunt_use"]
+  },
+  "blunt_finish": {
+    "sounds": ["weed_js_mod:blunt_finish"]
+  },
+  "dealer_work": {
+    "sounds": ["weed_js_mod:dealer_work"]
+  }
+}

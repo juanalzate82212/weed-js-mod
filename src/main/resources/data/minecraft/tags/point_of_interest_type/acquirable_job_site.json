@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "weed_js_mod:deal_poi",
+      "required": false
+    }
+  ]
+}

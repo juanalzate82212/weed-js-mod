@@ -1,7 +1,8 @@
 {
+  "parent": "weed_js_mod:craft_grinder",
   "display": {
     "icon": {
-      "id": "weed_js_mod:blunt_wrap"
+      "id": "weed_js_mod:blunt_wrap_natural"
     },
     "title": {
       "translate": "advancement.weed_js_mod.craft_blunt_wrap.title"
@@ -14,13 +15,24 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "weed_js_mod:harvest_cannabis",
   "criteria": {
-    "craft_blunt_wrap": {
-      "trigger": "minecraft:recipe_crafted",
+    "has_blunt_wrap": {
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "recipe_id": "weed_js_mod:blunt_wrap"
+        "items": [
+          {
+            "items": [
+              "weed_js_mod:blunt_wrap_natural",
+              "weed_js_mod:blunt_wrap_apple",
+              "weed_js_mod:blunt_wrap_watermelon",
+              "weed_js_mod:blunt_wrap_chocolate",
+              "weed_js_mod:blunt_wrap_honey",
+              "weed_js_mod:blunt_wrap_golden"
+            ]
+          }
+        ]
       }
     }
-  }
+  },
+  "requirements": [["has_blunt_wrap"]]
 }

@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "id": "weed_js_mod:cannabis_seed"
+    },
+    "title": "Weed JS",
+    "description": "Start your cultivation journey",
+    "background": "weed_js_mod:gui/advancements/background",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "requirements": [["tick"]]
+}

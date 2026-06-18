@@ -14,17 +14,4 @@ public class CannabisSeedItem extends BlockItem {
         super(block, settings);
     }
 
-    @Override
-    public ActionResult place(ItemPlacementContext context) {
-        ActionResult result = super.place(context);
-
-        if (result.isAccepted()) {
-            PlayerEntity player = context.getPlayer();
-            if (player != null && !player.isInCreativeMode()) {
-                player.getInventory().insertStack(new ItemStack(Items.GLASS_BOTTLE));
-            }
-        }
-
-        return result;
-    }
 }

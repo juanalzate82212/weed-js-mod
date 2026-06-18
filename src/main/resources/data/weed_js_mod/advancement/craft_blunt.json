@@ -1,4 +1,5 @@
 {
+  "parent": "weed_js_mod:craft_blunt_wrap",
   "display": {
     "icon": {
       "id": "weed_js_mod:blunt"
@@ -14,13 +15,19 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "weed_js_mod:craft_blunt_wrap",
   "criteria": {
-    "craft_blunt": {
-      "trigger": "minecraft:recipe_crafted",
+    "has_blunt": {
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "recipe_id": "weed_js_mod:blunt"
+        "items": [
+          {
+            "items": [
+              "weed_js_mod:blunt"
+            ]
+          }
+        ]
       }
     }
-  }
+  },
+  "requirements": [["has_blunt"]]
 }

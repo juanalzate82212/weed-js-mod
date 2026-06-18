@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "weed_js_mod:item/blunt_wrap_honey"
+  }
+}

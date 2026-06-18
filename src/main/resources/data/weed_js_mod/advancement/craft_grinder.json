@@ -1,0 +1,27 @@
+{
+  "parent": "weed_js_mod:get_cannabis_crafting_table",
+  "display": {
+    "icon": {
+      "id": "weed_js_mod:grinder"
+    },
+    "title": {
+      "translate": "advancement.weed_js_mod.craft_grinder.title"
+    },
+    "description": {
+      "translate": "advancement.weed_js_mod.craft_grinder.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "craft_grinder": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "weed_js_mod:grinder"
+      }
+    }
+  },
+  "requirements": [["craft_grinder"]]
+}

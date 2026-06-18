@@ -1,18 +1,72 @@
 {
   "item.weed_js_mod.cannabis_seed": "Cannabis Seed",
-  "item.weed_js_mod.cannabis_nugget": "Cannabis Nugget",
-  "item.weed_js_mod.blunt_wrap": "Blunt Wrap",
+
+  "item.weed_js_mod.cannabis_nugget_common": "Cannabis Nugget",
+  "item.weed_js_mod.cannabis_nugget_rare": "Cannabis Nugget",
+  "item.weed_js_mod.cannabis_nugget_special": "Cannabis Nugget",
+  "item.weed_js_mod.cannabis_nugget_legendary": "Cannabis Nugget",
+
+  "item.weed_js_mod.blunt_wrap_natural": "Natural Blunt Wrap",
+  "item.weed_js_mod.blunt_wrap_apple": "Apple Blunt Wrap",
+  "item.weed_js_mod.blunt_wrap_watermelon": "Watermelon Blunt Wrap",
+  "item.weed_js_mod.blunt_wrap_chocolate": "Chocolate Blunt Wrap",
+  "item.weed_js_mod.blunt_wrap_honey": "Honey Blunt Wrap",
+  "item.weed_js_mod.blunt_wrap_golden": "Golden Blunt Wrap",
+
+  "item.weed_js_mod.grinder": "Grinder",
   "item.weed_js_mod.blunt": "Blunt",
+
+  "weed_js_mod.nugget_quality.common": "Common",
+  "weed_js_mod.nugget_quality.rare": "Rare",
+  "weed_js_mod.nugget_quality.special": "Special",
+  "weed_js_mod.nugget_quality.legendary": "Legendary",
+
+  "weed_js_mod.blunt_wrap_type.natural": "Natural",
+  "weed_js_mod.blunt_wrap_type.apple": "Apple",
+  "weed_js_mod.blunt_wrap_type.watermelon": "Watermelon",
+  "weed_js_mod.blunt_wrap_type.chocolate": "Chocolate",
+  "weed_js_mod.blunt_wrap_type.honey": "Honey",
+  "weed_js_mod.blunt_wrap_type.golden": "Golden",
+
+  "weed_js_mod.tooltip.processed": "Processed ",
+  "weed_js_mod.tooltip.unprocessed": "Unprocessed ",
+  "weed_js_mod.tooltip.quality": "Quality ",
+  "weed_js_mod.tooltip.effect": "Effect ",
+  "weed_js_mod.tooltip.nugget": "Nugget ",
+  "weed_js_mod.tooltip.duration": "Duration: %s:%s Potency: %s",
+
+  "block.weed_js_mod.cannabis_soil": "Cannabis Soil",
+  "block.weed_js_mod.grow_light": "Grow Light",
+  "item.weed_js_mod.cannabis_soil": "Cannabis Soil",
+  "item.weed_js_mod.grow_light": "Grow Light",
+
+  "weed_js_mod.grinder.already_processed": "This nugget is already processed.",
+
+  "block.weed_js_mod.cannabis_crafting_table": "Cannabic Table",
+  "item.weed_js_mod.cannabis_crafting_table": "Cannabic Table",
+
+  "effect.weed_js_mod.high": "High",
+
+  "entity.minecraft.villager.weed_js_mod.dealer": "Dealer",
+
   "itemGroup.weed_js_mod.weed_js_mod_group": "Weed JS Mod",
 
-  "advancement.weed_js_mod.craft_cannabis_seed.title": "What is this?",
-  "advancement.weed_js_mod.craft_cannabis_seed.description": "Craft your first cannabis seed",
-  "advancement.weed_js_mod.harvest_cannabis.title": "Harvest Season",
-  "advancement.weed_js_mod.harvest_cannabis.description": "Harvest your first cannabis nugget",
-  "advancement.weed_js_mod.craft_blunt_wrap.title": "So Tasty",
+  "advancement.weed_js_mod.get_cannabis_crafting_table.title": "Heisenbench",
+  "advancement.weed_js_mod.get_cannabis_crafting_table.description": "Every empire stars somewhere",
+  "advancement.weed_js_mod.get_cannabis_soil.title": "Breaking Ground",
+  "advancement.weed_js_mod.get_cannabis_soil.description": "Craft an appropriate soil for your plants",
+  "advancement.weed_js_mod.craft_grow_light.title": "Let There Be Light",
+  "advancement.weed_js_mod.craft_grow_light.description": "Photosynthesis for your plants",
+  "advancement.weed_js_mod.plant_cannabis_seed.title": "420 IQ Farming",
+  "advancement.weed_js_mod.plant_cannabis_seed.description": "The first step is always planting",
+  "advancement.weed_js_mod.harvest_cannabis_nugget.title": "Harvest Season",
+  "advancement.weed_js_mod.harvest_cannabis_nugget.description": "Harvest your first cannabis nugget",
+  "advancement.weed_js_mod.craft_blunt_wrap.title": "Roll Initiative",
   "advancement.weed_js_mod.craft_blunt_wrap.description": "Craft your first blunt wrap",
+  "advancement.weed_js_mod.craft_grinder.title": "The Fine Art of Preparation",
+  "advancement.weed_js_mod.craft_grinder.description": "Craft your first grinder",
   "advancement.weed_js_mod.craft_blunt.title": "I Gotta Hide This",
-  "advancement.weed_js_mod.craft_blunt.description": "Craft your first blunt",
+  "advancement.weed_js_mod.craft_blunt.description": "This is where the fun begins",
   "advancement.weed_js_mod.smoke_blunt.title": "Snoop Would Be Proud",
-  "advancement.weed_js_mod.smoke_blunt.description": "Smoke your first blunt"
+  "advancement.weed_js_mod.smoke_blunt.description": "There's a cop right there"
 }

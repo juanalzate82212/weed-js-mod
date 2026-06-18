@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "RPR",
+    "GRG"
+  ],
+  "key": {
+    "G": "minecraft:glass",
+    "R": "minecraft:redstone",
+    "P": "minecraft:purple_dye"
+  },
+  "result": {
+    "id": "weed_js_mod:grow_light",
+    "count": 1
+  }
+}

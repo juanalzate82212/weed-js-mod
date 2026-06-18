@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facing=up":   { "model": "weed_js_mod:block/grow_light" },
+    "facing=down": { "model": "weed_js_mod:block/grow_light", "x": 180 },
+    "facing=north": { "model": "weed_js_mod:block/grow_light" },
+    "facing=south": { "model": "weed_js_mod:block/grow_light" },
+    "facing=east": { "model": "weed_js_mod:block/grow_light" },
+    "facing=west": { "model": "weed_js_mod:block/grow_light" }
+  }
+}

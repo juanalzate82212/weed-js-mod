@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "up":     "weed_js_mod:block/cannabis_crafting_table_top",
+    "down":   "weed_js_mod:block/cannabis_crafting_table_bottom",
+    "north":  "weed_js_mod:block/cannabis_crafting_table_front",
+    "south":  "weed_js_mod:block/cannabis_crafting_table_back",
+    "east":   "weed_js_mod:block/cannabis_crafting_table_side_a",
+    "west":   "weed_js_mod:block/cannabis_crafting_table_side_b",
+    "particle": "weed_js_mod:block/cannabis_crafting_table_top"
+  }
+}
